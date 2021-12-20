@@ -2,7 +2,7 @@ package com.ke.git_branch
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.appcompat.app.AlertDialog
+import android.view.View
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -10,7 +10,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
 
-    private fun showDialog() {
+    private fun showDialog(){
 
         AlertDialog.Builder(this)
             .setTitle("标题")
